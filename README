@@ -1,0 +1,15 @@
+# Modelo Epidemiológico SEIR
+
+Este proyecto simula la propagación de una enfermedad usando el modelo SEIR:
+
+- `S`: personas susceptibles
+- `E`: personas expuestas
+- `I`: personas infectadas
+- `R`: personas recuperadas
+
+La simulación utiliza el método Runge-Kutta de cuarto orden (RK4) y compara dos escenarios:
+
+- **Escenario A:** sin intervención.
+- **Escenario B:** reducción de la tasa de transmisión a partir del día 30.
+
+El programa muestra las gráficas de ambos escenarios e imprime el número reproductivo, el pico de infectados y el error de conservación de la población.
